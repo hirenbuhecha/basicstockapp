@@ -20,10 +20,10 @@
    * DB_PASSWORD=
 
    * MAIL_MAILER=smtp
-   * MAIL_HOST=smtp.gmail.com
-   * MAIL_PORT=465
-   * MAIL_USERNAME={your_mail_smtp}
-   * MAIL_PASSWORD={your_app_password}
-   * MAIL_ENCRYPTION=ssl
-   * MAIL_FROM_ADDRESS="{from_email}"
+   * MAIL_HOST={ smtp_host }
+   * MAIL_PORT={ smtp port }
+   * MAIL_USERNAME={ smtp username }
+   * MAIL_PASSWORD={ smtp password }
+   * MAIL_ENCRYPTION={ smtp encryption }
+   * MAIL_FROM_ADDRESS="{ from email }"
    * MAIL_FROM_NAME="${APP_NAME}"
