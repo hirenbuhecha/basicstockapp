@@ -1,4 +1,4 @@
-# Hiren Buhecha - Stock App Yahoo Stock
+# Stock App Yahoo Stock
 
 # Run PHPUnit Test
 ./vendor/bin/phpunit
