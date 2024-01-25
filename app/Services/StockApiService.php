@@ -18,8 +18,8 @@ class StockApiService
     {
         $response = $this->client->get('https://yh-finance.p.rapidapi.com/stock/v3/get-historical-data', [
             'headers' => [
-                'X-RapidAPI-Key' => 'a495c83c3dmsh52932ddd24542f1p1fef90jsnbfd3e2a4a459',
-                'X-RapidAPI-Host' => 'yh-finance.p.rapidapi.com',
+                'X-RapidAPI-Key' => { API Key },
+                'X-RapidAPI-Host' => { API Host },
             ],
             'query' => [
                 'symbol' => $symbol,
