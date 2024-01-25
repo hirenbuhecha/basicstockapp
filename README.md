@@ -1,5 +1,4 @@
-# Hiren Buhecha - XM Task
-Hiren - PHP Exercise - v21.0.5 - XM
+# Hiren Buhecha - Stock App Yahoo Stock
 
 # Run PHPUnit Test
 ./vendor/bin/phpunit
@@ -23,8 +22,8 @@ Hiren - PHP Exercise - v21.0.5 - XM
    * MAIL_MAILER=smtp
    * MAIL_HOST=smtp.gmail.com
    * MAIL_PORT=465
-   * MAIL_USERNAME=hirenbuhechatest007@gmail.com
-   * MAIL_PASSWORD=ftwfwzzyewprfupm
+   * MAIL_USERNAME={your_mail_smtp}
+   * MAIL_PASSWORD={your_app_password}
    * MAIL_ENCRYPTION=ssl
-   * MAIL_FROM_ADDRESS="hirenbuhechatest007@gmail.com"
+   * MAIL_FROM_ADDRESS="{from_email}"
    * MAIL_FROM_NAME="${APP_NAME}"
